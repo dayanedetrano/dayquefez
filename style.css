@@ -138,6 +138,13 @@ img {
   position: absolute;
 }
 
+@media (max-width: 540px) {
+  #bg1 img {
+    top: -10rem;
+    right: -6rem;
+  }
+}
+
 /* full width with content starting at a 1200px container, margin that */
 #bolos-wrapper {
   margin-left: calc((100vw - 1200px) / 2);
@@ -193,6 +200,13 @@ img {
   }
   #bolos-galeria {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #bolos-galeria {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 
