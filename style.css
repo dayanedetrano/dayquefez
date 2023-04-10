@@ -4,6 +4,10 @@ html {
   --black: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-1);
 }
