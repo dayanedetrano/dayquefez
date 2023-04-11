@@ -319,6 +319,7 @@ img {
   color: white;
   gap: 2rem;
   background: url('./img/bg-button.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 #whatsapp::after {

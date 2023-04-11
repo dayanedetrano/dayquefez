@@ -9,6 +9,10 @@ function changeBackground() {
     docesLeft = -200;
     bolosRight = -400;
   }
+  if (document.body.clientWidth < 600) {
+    docesLeft = -200;
+    bolosRight = -600;
+  }
 
   document.body.style.background = `
     url(./img/bg1.jpg) no-repeat right ${bolosRight}px top -100px, 
